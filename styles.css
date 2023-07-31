@@ -37,7 +37,6 @@ html {
 }
 
 .content p {
-    /* font-size: 18px; */
     margin-bottom: 30px;
 }
 
@@ -71,12 +70,15 @@ html {
 
 @media screen and (max-width: 767px) {
 
-    /* Your mobile styles go here */
     .welcome-text {
         font-size: 75px;
     }
 
     .welcome-para {
         font-size: 20px;
+    }
+
+    .company-logo {
+        width: 100%;
     }
 }

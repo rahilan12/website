@@ -14,25 +14,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@200;700;900&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-    <!-- <div class="video-background" style="margin-bottom: 2%;">
-        <video autoplay loop muted playsinline class="background-video">
-            <source src="crazy.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-        <div class="content" style="background-color: linear-gradient(to right, #8B53FF, #6AB0EC); ">
-
-            <h1 class="welcome-text">Welcome To Afiyan</h1>
-            <p class="welcome-para">Afiyan is a Saudi leading provider of professional services
-                for Identity and Access Management (IAM) and
-                Privileged Access Management (PAM) solutions. We help organizations of all sizes implement, manage, and
-                secure their IAM and PAM solutions to protect their data and assets from unauthorized access.
-            </p>
+    <div class="px-4 py-5 my-5 text-center">
+        <img class="d-block mx-auto mb-4" src="./trans-logo.png">
+        <h1 class="display-5 fw-bold text-body-emphasis">Welcome to Afiyan</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s
+                most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,
+                extensive prebuilt components, and powerful JavaScript plugins.</p>
         </div>
-    </div> -->
+    </div>
+
+
 
     <!-- main block end -->
 
@@ -146,13 +149,14 @@
     <!-- start why us -->
 
 
-    <div class="bg-dark text-secondary px-3 py-3 text-center" style="margin-bottom: 100px; ">
+    <!-- <div class="bg-dark text-secondary px-3 py-3 text-center" style="margin-bottom: 100px; ">
         <div class="container py-5">
-            <h1 class="display-5 fw-bold text-white" style="font-family: 'Urbanist' , sans-serif;">Why Us</h1>
+            <h1 class="display-5 fw-bold text-white pb-2 " style="font-family: 'Urbanist' , sans-serif;">
+                Why Us</h1>
 
             <div class="row g-4 py-5 row-cols-1 row-cols-lg-3" style="color: white;">
                 <div class="col d-flex align-items-start" style="padding: 20px 40px;">
-                    <div>
+                    <div class="card" style="background-color: grey; padding: 15px;">
                         <h2 style="font-family: 'Urbanist' , sans-serif;">Strong Team</h2>
                         <p>We have a team of experienced experts who can help you implement and manage your IAM and
                             PAM
@@ -161,7 +165,7 @@
                     </div>
                 </div>
                 <div class="col d-flex align-items-start" style="padding: 20px 40px;">
-                    <div>
+                    <div class="card" style="background-color: grey; padding: 15px;">
                         <h2 style="font-family: 'Urbanist' , sans-serif;">Customer Service</h2>
                         <p>We have a team of experienced experts who can help you implement and manage your IAM and
                             PAM
@@ -170,7 +174,7 @@
                     </div>
                 </div>
                 <div class="col d-flex align-items-start" style="padding: 20px 40px;">
-                    <div>
+                    <div class="card" style="background-color: grey; padding: 15px;">
                         <h2 style="font-family: 'Urbanist' , sans-serif;">Secure Trust</h2>
                         <p>We have a team of experienced experts who can help you implement and manage your IAM and
                             PAM
@@ -178,66 +182,124 @@
                         </p>
                     </div>
                 </div>
-                <div class="col d-flex align-items-start" style="padding: 20px 40px;">
-                    <div>
-                        <h2 style="font-family: 'Urbanist' , sans-serif;">Scalable Solutions</h2>
-                        <p>As your organization grows, our solutions can scale to accommodate your changing needs.
-                            Whether you are a small startup or a large enterprise, our services can be tailored to
-                            fit
-                            your size and requirements.
-                        </p>
-                    </div>
-                </div>
-                <div class="col d-flex align-items-start" style="padding: 20px 40px;">
-                    <div>
-                        <h2 style="font-family: 'Urbanist' , sans-serif;">Best Practices</h2>
-                        <p>Our experts stay up-to-date with the latest industry best practices and security
-                            standards.
-                            We implement cutting-edge technologies and methodologies to ensure your organization
-                            stays
-                            ahead in the ever-evolving cybersecurity landscape.
-                        </p>
-                    </div>
-                </div>
-                <div class="col d-flex align-items-start" style="padding: 20px 40px;">
-                    <div>
-                        <h2 style="font-family: 'Urbanist' , sans-serif;">Strong Team</h2>
-                        <p>We have a team of experienced experts who can help you implement and manage your IAM and
-                            PAM
-                            solutions.
-                        </p>
-                    </div>
-                </div>
+
             </div>
 
         </div>
     </div>
+ -->
 
 
+    <div class="bg-dark" style="margin-bottom: 100px;">
 
+        <div class="container px-4 py-5">
+            <h1 class="pb-2 border-bottom text-light">Why Us</h1>
 
+            <div class="row row-cols-1 row-cols-md-2  g-5 py-5 ">
+                <div class="col d-flex flex-column align-items-start gap-2">
+                    <h2 style="color: white">
+                        Afiyan is the best company for IAM and PAM solutions, We offer personalized strategies,
+                        unwavering customer support, and cutting-edge security expertise to safeguard critical assets
+                        effectively.
+                    </h2>
+                    <h5 style="color: white">Choose Afiyan for a secure journey towards success in identity and access
+                        management.</h5>
+                    <div class="d-inline-flex gap-2 mb-5 mt-2">
+                        <button class="d-inline-flex align-items-center btn btn-secondary btn-lg px-4 " type="button"
+                            onclick="openEmail()">
+                            Contact Now
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="row row-cols-1 row-cols-sm-2 g-4">
+                        <div class="col d-flex flex-column gap-2">
+                            <h2 style="color: white;">Customer Security</h2>
+                            <p style="color: white;">We prioritize building strong, lasting partnerships with each
+                                client, and our support
+                                extends far beyond the initial implementation. </p>
+                        </div>
+
+                        <div class="col d-flex flex-column gap-2">
+                            <h2 style="color: white;">Trusted Ally</h2>
+                            <p style="color: white;">Rely on our seasoned team of IAM and PAM professionals, equipped
+                                with extensive industry experience. With a deep understanding of leading vendor
+                                solutions, we deliver reliable expertise to drive your security initiatives forward.
+                            </p>
+                        </div>
+
+                        <div class="col d-flex flex-column gap-2">
+                            <h2 style="color: white;">Customer Security</h2>
+                            <p style="color: white;">We prioritize building strong, lasting partnerships with each
+                                client, and our support
+                                extends far beyond the initial implementation. </p>
+                        </div>
+
+                        <div class="col d-flex flex-column gap-2">
+                            <h2 style="color: white;">Customer Security</h2>
+                            <p style="color: white;">We prioritize building strong, lasting partnerships with each
+                                client, and our support
+                                extends far beyond the initial implementation. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
 
     <!-- end why us -->
 
+
+    <!-- start technologies  -->
     <div class="container">
         <img src="images/1.webp" width="100%" alt="">
         <br />
         <br />
         <img src="images/2.webp" width="100%" alt="">
     </div>
+    <!-- end technologies  -->
+
+
 
     <!-- start footer -->
 
     <div class="bg-dark text-secondary px-4 py-5 text-center" style="margin-top: 100px;">
-        <div class="py-5">
-            <img src="images/rocket.png" width="10%"">
-            <h1 style=" font-size: 50px; font-family: 'Urbanist' , sans-serif;"
-                class=" display-5 fw-bold text-white">Contact Us</h1>
-            <div style="padding-top: 5px;">
-                <a style=" font-size: large; color: white;" href="mailto:afiyan@.in">contact@afiyan.in</a>
+        <div class="container">
+            <div class="container my-5">
+                <div class="p-5 text-center bg-body-tertiary rounded-3">
+
+                    <h1 class="text-body-emphasis">Get in Touch with Us - Contact Us Today</h1>
+                    <p class="col-lg-8 mx-auto fs-5 text-muted">
+                        Feel free to drop us a message using your convenient mail address, and we'll get back to
+                        you as soon as possible. Your feedback and inquiries are valuable to us, and we look forward to
+                        connecting with you. Let's embark on this journey together!"
+                    </p>
+                    <div class="d-inline-flex gap-2 mb-5 mt-2">
+                        <button class="d-inline-flex align-items-center btn btn-secondary btn-lg px-4" type="button"
+                            onclick="openEmail()">
+                            Write to Us
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
+
+    <script>
+        function openEmail() {
+            var emailAddress = "tuahakst@gmail.com"; // Replace this with your email address
+            var subject = "Hello from the website!"; // Replace this with your desired subject
+
+            // Compose the mailto link
+            var mailtoLink = "mailto:" + emailAddress + "?subject=" + encodeURIComponent(subject);
+
+            // Open the default email client
+            window.location.href = mailtoLink;
+        }
+    </script>
 
     <!-- end footer -->
 
