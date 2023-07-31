@@ -91,6 +91,8 @@ html {
 
     .company-logo {
         width: 100%;
+        padding-right: 50px;
+        padding-left: 50px;
     }
 
     .main-heading-text {
@@ -102,6 +104,5 @@ html {
         font-size: 50px;
         font-size: medium;
     }
-
 
 }
