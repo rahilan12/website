@@ -68,6 +68,17 @@ html {
     font-size: 25px;
 }
 
+.main-heading-text {
+    color: white;
+    font-size: 85px;
+}
+
+.main-para-text {
+    color: white;
+    font-size: 25px;
+}
+
+
 @media screen and (max-width: 767px) {
 
     .welcome-text {
@@ -81,4 +92,16 @@ html {
     .company-logo {
         width: 100%;
     }
+
+    .main-heading-text {
+        color: white;
+        font-size: 35px;
+    }
+
+    .main-para-text {
+        font-size: 50px;
+        font-size: medium;
+    }
+
+
 }
